@@ -14,6 +14,10 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/DrakonPL/OrbisMinor/releases/latest"><img src="https://img.shields.io/badge/Download-v0.1.0%20for%20PS%20Vita-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Download v0.1.0 for PS Vita"></a>
+</p>
+
+<p align="center">
   <a href="#download">Download</a> ·
   <a href="#features">Features</a> ·
   <a href="#controls">Controls</a> ·
@@ -195,13 +199,13 @@ The SHOULDER FIRE preset puts fire on R and thrust on Cross.
 
 ## Download
 
-Builds for the PS Vita go to the [Releases](https://github.com/DrakonPL/OrbisMinor/releases) page. No build is available yet.
+The latest build is [version 0.1.0](https://github.com/DrakonPL/OrbisMinor/releases/latest), the first preview build for the PS Vita. All builds are on the [Releases](https://github.com/DrakonPL/OrbisMinor/releases) page.
 
 ### PS Vita
 
 You need a PS Vita with homebrew enabled (HENkaku or Ensō) and VitaShell.
 
-1. Download the `.vpk` file from the Releases page.
+1. Download the `.vpk` file from the [latest release](https://github.com/DrakonPL/OrbisMinor/releases/latest).
 2. Copy the `.vpk` file to the memory card of the console.
 3. Open VitaShell and select the `.vpk` file.
 4. Install the file.
