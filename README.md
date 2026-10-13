@@ -15,9 +15,11 @@
 
 <p align="center">
   <a href="https://github.com/DrakonPL/OrbisMinor/releases/latest"><img src="https://img.shields.io/badge/Download-v0.1.0%20for%20PS%20Vita-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Download v0.1.0 for PS Vita"></a>
+  <a href="https://www.youtube.com/watch?v=2YEiEj25efc"><img src="https://img.shields.io/badge/Watch-on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube"></a>
 </p>
 
 <p align="center">
+  <a href="#gameplay-video">Video</a> ·
   <a href="#download">Download</a> ·
   <a href="#features">Features</a> ·
   <a href="#controls">Controls</a> ·
@@ -25,6 +27,16 @@
 </p>
 
 ---
+
+## Gameplay video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=2YEiEj25efc"><img src="https://img.youtube.com/vi/2YEiEj25efc/maxresdefault.jpg" width="80%" alt="Orbis Minor [PS VITA] on YouTube"></a>
+</p>
+
+<p align="center">
+  <sub>The video shows the game on the PS Vita. Click the image to watch it on YouTube.</sub>
+</p>
 
 ## About the game
 
