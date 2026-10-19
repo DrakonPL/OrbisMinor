@@ -4,17 +4,18 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/PS%20Vita-homebrew-003791?style=for-the-badge&logo=playstation&logoColor=white" alt="PS Vita homebrew">
-  <img src="https://img.shields.io/badge/PC%20%2B%20Switch-later-555555?style=for-the-badge" alt="PC and Switch: later">
+  <img src="https://img.shields.io/badge/Windows-PC-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows PC">
+  <img src="https://img.shields.io/badge/Nintendo%20Switch-homebrew-E60012?style=for-the-badge&logo=nintendoswitch&logoColor=white" alt="Nintendo Switch homebrew">
   <img src="https://img.shields.io/badge/status-in%20development-FF9E40?style=for-the-badge" alt="Status: in development">
 </p>
 
 <p align="center">
-  <b>A low-poly space exploration game for the PS Vita.</b><br>
+  <b>A low-poly space exploration game for the PS Vita, the PC, and the Nintendo Switch.</b><br>
   Fly from open space down to the surface of small planets. Find old ruins, fight pirates, and solve the secret of the system.
 </p>
 
 <p align="center">
-  <a href="https://github.com/DrakonPL/OrbisMinor/releases/latest"><img src="https://img.shields.io/badge/Download-v0.1.0%20for%20PS%20Vita-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Download v0.1.0 for PS Vita"></a>
+  <a href="https://github.com/DrakonPL/OrbisMinor/releases/latest"><img src="https://img.shields.io/badge/Download-v0.1.0-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Download v0.1.0"></a>
   <a href="https://www.youtube.com/watch?v=2YEiEj25efc"><img src="https://img.shields.io/badge/Watch-on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube"></a>
 </p>
 
@@ -23,7 +24,8 @@
   <a href="#download">Download</a> ·
   <a href="#features">Features</a> ·
   <a href="#controls">Controls</a> ·
-  <a href="#status">Status</a>
+  <a href="#status">Status</a> ·
+  <a href="#roadmap">Roadmap</a>
 </p>
 
 ---
@@ -174,7 +176,7 @@ The system is not empty. Pirates patrol in space and in the air of the planets. 
 
 ### Ship computer, saves, and options
 
-Press Start to open the ship computer. It has 4 tabs: STATUS, MAP, LOG, and OPTIONS.
+Press Start to open the ship computer. On the Switch, press +. On a PC keyboard, press Esc. The ship computer has 4 tabs: STATUS, MAP, LOG, and OPTIONS.
 
 - **4 ship styles** for the player: military, luxury, industrial, and explorer. The game builds each ship from parts.
 - **3 save slots** with autosave at a dock, after a find, and when you enter a new zone.
@@ -192,26 +194,36 @@ Press Start to open the ship computer. It has 4 tabs: STATUS, MAP, LOG, and OPTI
 
 The default stick layout is ONE STICK. The left stick steers the ship, and the right thumb stays on the face buttons. You can change every binding in OPTIONS > CONTROLS.
 
-| Action | PS Vita |
-| --- | --- |
-| Pitch | Left stick up, down |
-| Turn | Left stick left, right |
-| Roll | Right stick left, right |
-| Thrust | R |
-| Brake | L |
-| Fire | Cross |
-| Boost | Square |
-| Landing gear (hold near a dock: auto-dock) | Circle |
-| Dock or cruise drive | Triangle |
-| Scan pulse | D-pad up |
-| Map | D-pad down |
-| Ship computer, pause | Start |
+| Action | PS Vita | Nintendo Switch | PC keyboard |
+| --- | --- | --- | --- |
+| Pitch | Left stick up, down | Left stick up, down | W, S |
+| Turn | Left stick left, right | Left stick left, right | A, D |
+| Roll | Right stick left, right | Right stick left, right | Q, E |
+| Thrust | R | R | Space |
+| Brake | L | L | Left Ctrl |
+| Fire | Cross | B | J |
+| Boost | Square | Y | Left Shift |
+| Landing gear (hold near a dock: auto-dock) | Circle | A | G |
+| Dock or cruise drive | Triangle | X | F (C: cruise drive) |
+| Scan pulse | D-pad up | D-pad up | R |
+| Map | D-pad down | D-pad down | M |
+| Ship computer, pause | Start | + | Esc |
 
-The SHOULDER FIRE preset puts fire on R and thrust on Cross.
+The SHOULDER FIRE preset puts fire on R and thrust on the bottom face button.
+
+**Menus:** on the PS Vita, Cross selects and Circle goes back. On the Switch, A selects and B goes back. OPTIONS > CONTROLS > CONFIRM BUTTON swaps the two buttons. On the PC keyboard, the arrow keys move, Enter selects, and Backspace goes back.
+
+**PC gamepads:** Xbox, PlayStation, and Switch Pro controllers work. The buttons have the same positions as on the PS Vita. On a PC gamepad, R2 is thrust and L2 is brake. Alt+Enter changes between a window and the full screen.
 
 ## Download
 
-The latest build is [version 0.1.0](https://github.com/DrakonPL/OrbisMinor/releases/latest), the first preview build for the PS Vita. All builds are on the [Releases](https://github.com/DrakonPL/OrbisMinor/releases) page.
+The latest build is [version 0.1.0](https://github.com/DrakonPL/OrbisMinor/releases/latest), the first preview build. All builds are on the [Releases](https://github.com/DrakonPL/OrbisMinor/releases) page.
+
+| Platform | File |
+| --- | --- |
+| PS Vita | `OrbisMinor-v0.1.0.vpk` |
+| Windows PC | `OrbisMinor-0.1.0-win32.zip` |
+| Nintendo Switch | `OrbisMinor-0.1.0-switch.zip` |
 
 ### PS Vita
 
@@ -225,26 +237,88 @@ You need a PS Vita with homebrew enabled (HENkaku or Ensō) and VitaShell.
 
 The game keeps its saves in `ux0:/data/OrbisMinor/`. When you update the game, install the full `.vpk` file again.
 
-### PC and Nintendo Switch
+### Windows PC
 
-Orbis Minor is a PS Vita game for now. Versions for the PC and the Nintendo Switch come later.
+You need Windows 10 or 11 and a graphics card with OpenGL 4.3. The game needs no installer.
+
+1. Download the `-win32.zip` file from the [latest release](https://github.com/DrakonPL/OrbisMinor/releases/latest).
+2. Unzip the folder anywhere.
+3. Start `OrbisMinor.exe`.
+
+The first start opens the game borderless on the main monitor. The DISPLAY page of the options sets the mode, the monitor, the resolution, the vsync, and the frame cap.
+
+The game keeps its saves in `%APPDATA%\Andromeda\OrbisMinor`. The `README.txt` file in the zip tells you what to do when the screen stays black.
+
+### Nintendo Switch
+
+You need a Nintendo Switch that can run homebrew, with the Homebrew Menu.
+
+1. Download the `-switch.zip` file from the [latest release](https://github.com/DrakonPL/OrbisMinor/releases/latest).
+2. Unzip the file. You get the folder `OrbisMinor`.
+3. Copy the `OrbisMinor` folder to the `switch` folder of the SD card.
+4. Start the Homebrew Menu.
+5. Select Orbis Minor.
+
+Start the Homebrew Menu through a game: hold R when you start a game. The Album gives homebrew less memory.
+
+The game keeps its saves in `sdmc:/switch/OrbisMinor/`, next to the game. When you update the game, copy the new `OrbisMinor` folder over the old one. The saves stay.
 
 ## Status
 
 Orbis Minor is in development. The game is not finished.
 
 - The PS Vita build runs the flight and the planets at 60 fps. In tests on the console, a frame took 9.3 ms or less.
-- The development build on the PC runs the newer content. The checks on Vita hardware are in progress.
+- The PC and Switch builds are new in version 0.1.0. They have the same content as the PS Vita build.
+- The Switch build had only a few test runs on the console. Send a bug report when something goes wrong.
 - The first-flight tutorial is not done yet.
-- The core loop is still open to change. Ideas under test include cargo, landing grades, ship upgrades, and jump fuel.
+- The core loop is still open to change. The [roadmap](#roadmap) below lists what comes next.
 
 This repository holds the presentation of the game and the release builds. The source code is not in this repository.
 
+## Roadmap
+
+Thank you for the feedback on the first release. Most of this list comes from your comments. The order is the planned order of work. It can change.
+
+### Next: small things with a big effect
+
+- **Free-look camera.** Hold the rear touch pad and turn the camera with the right stick. The ship keeps its course.
+- **Landing grades.** A grade for every dive, climb, and touchdown, with a clean mark for a perfect landing.
+- **Forests.** Patches of forest and open ground, large and small trees, and bushes.
+- **Cores as money.** Relics on the planets hold energy cores. Carry one to a station or a starport on a tow cable, and the bank pays.
+- **Planets that react.** A theft or a fight wakes a planet. Hunters come, and a lockdown follows. The alert cools down when you leave.
+- **A 30 fps option** for the high detail preset. The default stays 60 fps.
+
+### Then: a galaxy
+
+- **30 to 40 star systems** with real star names, on a chart with jump lanes between neighbors.
+- **4 to 8 bodies in a system**, not 3 or 4. The sun at the center, the planets on orbits.
+- **New kinds of body:** asteroid belts with their own bases, gas giants that hang in the sky of their moons, deep-space stations, derelict fields, and comets.
+- **Charting.** A system shows on the chart after a neighbor reveals it, by a scan or by a chart that you buy.
+- **A hidden system.** Ten chart pieces lie hidden across the galaxy, with a clue and no scanner mark. The full chart shows a system that is not on any map, and an artifact waits there.
+- **Difficulty by region.** The far side of the galaxy has stronger guards, larger groups, and earlier capital ships.
+
+### Later: a reason to fly
+
+- **Ship upgrades,** sold at the stations for cores: shields, speed, weapons, and one unique artifact.
+- **Bounties** for pirate kills.
+- **Missions** from ships and stations: kill a group, bring cores, scan a landmark, escort a ship, reach a system, or steal a core from a guarded site while the alert climbs.
+- **Shops** with prices that change from system to system, and faces to talk to.
+- **New enemy attacks:** lobbed shots, mines, and beams that you can see coming.
+- **Fleet battles** between the navy and the pirates, in space and over a pirate base. You pick a side.
+- **New ship types** for the pirates and the navy.
+
+### Big: on foot
+
+- **Digging.** Holes, pits, and tunnels in the ground of a planet.
+- **Leave the ship.** Walk near your landed ship, dig for ore, carry it back, and sell it.
+- **Co-op for two Vitas** over a local Wi-Fi network.
+- **Planets of different sizes.** Under study. Every planet is 4 km today.
+
 ## Technical notes
 
-- **Engine:** Andromeda-Lib, the C++ engine of the developer. The PS Vita build uses GXM through [VitaSDK](https://vitasdk.org).
-- **Screen:** 960 x 544, the native resolution of the PS Vita.
-- **Anti-aliasing:** 2x MSAA.
+- **Engine:** Andromeda-Lib, the C++ engine of the developer. The PS Vita build uses GXM through [VitaSDK](https://vitasdk.org). The PC build uses OpenGL. The Switch build uses OpenGL through [devkitPro](https://devkitpro.org) and libnx.
+- **Screen:** 960 x 544 on the PS Vita, the native resolution. 1280 x 720 on the Switch. When the Switch is docked, the game draws the frame at the TV resolution, up to 1080p. The PC sets the resolution in the DISPLAY options.
+- **Anti-aliasing:** 2x MSAA on the PS Vita. The PC sets it in the options.
 - **World:** the planets are full spheres with streamed terrain patches. Background threads build each planet zone while you fly.
 - **Assets:** code makes the ships, the stations, the landmarks, the music, and the sound effects. The game ships almost no hand-made art.
 - **Font:** [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) by CodeMan38, under the SIL Open Font License.
