@@ -15,12 +15,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/DrakonPL/OrbisMinor/releases/latest"><img src="https://img.shields.io/badge/Download-v0.1.0-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Download v0.1.0"></a>
+  <a href="https://github.com/DrakonPL/OrbisMinor/releases/latest"><img src="https://img.shields.io/badge/Download-v0.2.2-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Download v0.2.2"></a>
   <a href="https://www.youtube.com/watch?v=2YEiEj25efc"><img src="https://img.shields.io/badge/Watch-on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube"></a>
 </p>
 
 <p align="center">
   <a href="#gameplay-video">Video</a> ·
+  <a href="#new-in-02">New in 0.2</a> ·
   <a href="#download">Download</a> ·
   <a href="#features">Features</a> ·
   <a href="#controls">Controls</a> ·
@@ -39,6 +40,18 @@
 <p align="center">
   <sub>The video shows the game on the PS Vita. Click the image to watch it on YouTube.</sub>
 </p>
+
+## New in 0.2
+
+Version 0.2 lets you leave the ship. The latest build is [version 0.2.2](https://github.com/DrakonPL/OrbisMinor/releases/tag/0.2.2).
+
+- **Explore on foot.** Land with the gear down and step outside. Walk, run, jump, and fire the suit jet, in the first-person or the third-person view.
+- **Dig and mine.** The dig tool cuts pits and tunnels into the planet. Dig into an ore vein, carry the chunks to the hold of your ship, and bank them at a starport or a station.
+- **Landing gear and auto landing.** The ship has three landing legs. Fly low and slow, press DOCK, and the ship lands itself.
+- **FREE LOOK.** The new default stick layout. The right stick turns the camera round the ship, and the ship keeps its course.
+- **Switch buttons on the Switch.** The menus and the hints show A, B, X, Y, +, and −.
+
+The [changelog](CHANGELOG.md) lists the changes since version 0.1.0.
 
 ## About the game
 
@@ -78,6 +91,7 @@ There is no loading screen between open space and the surface of a planet. You c
 - A mass lock stops the cruise drive near a planet or an enemy.
 - The terrain uses a faceted, low-poly style with clouds, seas, coast foam, and sea glint.
 - The engines leave trails, and the ship drops a shadow on the ground.
+- Three landing legs swing down for a landing. Fly low and slow, press DOCK at the AUTO LAND prompt, and the ship lands itself.
 
 <p align="center">
   <img src="docs/screenshots/asteroid_field.png" width="49%" alt="Asteroid field near a planet">
@@ -86,6 +100,28 @@ There is no loading screen between open space and the surface of a planet. You c
 <p align="center">
   <img src="docs/screenshots/low_flight_grass.png" width="49%" alt="Low flight over grass and a beach">
   <img src="docs/screenshots/low_flight_snow.png" width="49%" alt="Low flight over an ice planet">
+</p>
+
+### On foot: walk, dig, and mine
+
+Land on a planet with the gear down, then hold DOCK to get out. You can walk up to 200 m from the ship. Board again from any side of the hull.
+
+- **The suit** of the explorer has full animations: walk, run, jump, fall, land, carry, and aim.
+- **Two views:** first-person and third-person over the shoulder.
+- **The suit jet** gets you out of a deep pit.
+- **The dig tool** cuts pits and tunnels into the ground. A ring shows the cut before you press. You can land the ship in a pit and fly it through a tunnel.
+- **The fill** puts the rock back.
+- **Ore:** each planet has one ore field with 2 to 4 veins. The field appears near your first dig. A HUD mark points to the nearest vein.
+- **The hold** of the ship takes 6 chunks of ore. Land on a starport pad or dock at a station to bank them.
+- **The save** keeps your digs on up to 4 planets.
+
+<p align="center">
+  <img src="docs/screenshots/eva_walk.png" width="49%" alt="The explorer walks back to the ship on a starport pad">
+  <img src="docs/screenshots/eva_jet.png" width="49%" alt="A jump with the suit jet near an alien coast">
+</p>
+<p align="center">
+  <img src="docs/screenshots/eva_carry_ore.png" width="49%" alt="The explorer carries a chunk of ore">
+  <img src="docs/screenshots/dig_beam.png" width="49%" alt="The dig tool cuts into an ore vein">
 </p>
 
 ### A different system for every seed
@@ -181,7 +217,7 @@ Press Start to open the ship computer. On the Switch, press +. On a PC keyboard,
 - **4 ship styles** for the player: military, luxury, industrial, and explorer. The game builds each ship from parts.
 - **3 save slots** with autosave at a dock, after a find, and when you enter a new zone.
 - **Options** for gameplay, audio, graphics, and controls.
-- **Rebindable controls** with 3 stick layouts and presets.
+- **Rebindable controls** with 4 stick layouts and presets.
 - **Original music and sound:** 3 music tracks and 19 sound effects. A script makes all of them from code.
 
 <p align="center">
@@ -192,38 +228,57 @@ Press Start to open the ship computer. On the Switch, press +. On a PC keyboard,
 
 ## Controls
 
-The default stick layout is ONE STICK. The left stick steers the ship, and the right thumb stays on the face buttons. You can change every binding in OPTIONS > CONTROLS.
+The default stick layout is FREE LOOK. The left stick steers the ship, and the right stick turns the camera round the ship. The camera goes back behind the ship after you release the stick. You can change every binding in OPTIONS > CONTROLS.
+
+### In the ship
 
 | Action | PS Vita | Nintendo Switch | PC keyboard |
 | --- | --- | --- | --- |
 | Pitch | Left stick up, down | Left stick up, down | W, S |
 | Turn | Left stick left, right | Left stick left, right | A, D |
-| Roll | Right stick left, right | Right stick left, right | Q, E |
-| Thrust | R | R | Space |
-| Brake | L | L | Left Ctrl |
+| Roll | Slide a finger sideways on the rear touch pad | L, R | Q, E |
+| Camera | Right stick | Right stick | — |
+| Thrust | R | ZR | Space |
+| Brake | L | ZL | Left Ctrl |
 | Fire | Cross | B | J |
 | Boost | Square | Y | Left Shift |
 | Landing gear (hold near a dock: auto-dock) | Circle | A | G |
-| Dock or cruise drive | Triangle | X | F (C: cruise drive) |
+| Dock, auto land, or cruise drive | Triangle | X | F (C: cruise drive) |
 | Scan pulse | D-pad up | D-pad up | R |
 | Map | D-pad down | D-pad down | M |
 | Ship computer, pause | Start | + | Esc |
+
+### On foot
+
+| Action | PS Vita | Nintendo Switch | PC keyboard |
+| --- | --- | --- | --- |
+| Walk | Left stick | Left stick | W, A, S, D |
+| Look | Right stick | Right stick | Arrow keys |
+| Run (hold) | Square | Y | Left Shift |
+| Jump, pick up ore (hold in the air: suit jet) | Cross | B | J |
+| Dig (hold) | R | ZR | Space |
+| Fill (hold) | L | ZL | Left Ctrl |
+| Get out (hold in the ship), board | Triangle | X | F |
+| First-person or third-person view | D-pad right | D-pad right | V |
+| Wave | D-pad left | D-pad left | X |
+
+**Other stick layouts:** STANDARD, SWAPPED, and ONE STICK put the roll on a stick. With these layouts, the Switch uses R for thrust and L for brake. On the PS Vita, the REAR ROLL option sets the roll on the rear touch pad: DRAG, ZONES, or OFF. The SELF LEVEL option levels the wings when you do not roll.
 
 The SHOULDER FIRE preset puts fire on R and thrust on the bottom face button.
 
 **Menus:** on the PS Vita, Cross selects and Circle goes back. On the Switch, A selects and B goes back. OPTIONS > CONTROLS > CONFIRM BUTTON swaps the two buttons. On the PC keyboard, the arrow keys move, Enter selects, and Backspace goes back.
 
-**PC gamepads:** Xbox, PlayStation, and Switch Pro controllers work. The buttons have the same positions as on the PS Vita. On a PC gamepad, R2 is thrust and L2 is brake. Alt+Enter changes between a window and the full screen.
+**PC gamepads:** Xbox, PlayStation, and Switch Pro controllers work. The buttons have the same positions as on the PS Vita. On a PC gamepad, R2 is thrust and L2 is brake. With FREE LOOK, L1 and R1 roll. Alt+Enter changes between a window and the full screen.
 
 ## Download
 
-The latest build is [version 0.1.0](https://github.com/DrakonPL/OrbisMinor/releases/latest), the first preview build. All builds are on the [Releases](https://github.com/DrakonPL/OrbisMinor/releases) page.
+The latest build is [version 0.2.2](https://github.com/DrakonPL/OrbisMinor/releases/tag/0.2.2). All builds are on the [Releases](https://github.com/DrakonPL/OrbisMinor/releases) page.
 
 | Platform | File |
 | --- | --- |
-| PS Vita | `OrbisMinor-v0.1.0.vpk` |
-| Windows PC | `OrbisMinor-0.1.0-win32.zip` |
-| Nintendo Switch | `OrbisMinor-0.1.0-switch.zip` |
+| PS Vita | `OrbisMinor-0.2.2-vita.vpk` |
+| Windows PC | `OrbisMinor-0.2.2-win32.zip` |
+| Nintendo Switch | `OrbisMinor-0.2.2-switch.zip` |
 
 ### PS Vita
 
@@ -268,8 +323,9 @@ The game keeps its saves in `sdmc:/switch/OrbisMinor/`, next to the game. When y
 Orbis Minor is in development. The game is not finished.
 
 - The PS Vita build runs the flight and the planets at 60 fps. In tests on the console, a frame took 9.3 ms or less.
-- The PC and Switch builds are new in version 0.1.0. They have the same content as the PS Vita build.
-- The Switch build had only a few test runs on the console. Send a bug report when something goes wrong.
+- The PC and Switch builds have the same content as the PS Vita build.
+- The walk on foot, the dig, and the ore are new in version 0.2. Send a bug report when something goes wrong.
+- The Switch build had only a few test runs on the console.
 - The first-flight tutorial is not done yet.
 - The core loop is still open to change. The [roadmap](#roadmap) below lists what comes next.
 
@@ -279,9 +335,14 @@ This repository holds the presentation of the game and the release builds. The s
 
 Thank you for the feedback on the first release. Most of this list comes from your comments. The order is the planned order of work. It can change.
 
+### Done in 0.2
+
+- **Free-look camera.** The right stick turns the camera round the ship. The ship keeps its course.
+- **Leave the ship.** Walk near your landed ship, dig for ore, carry it back, and bank it.
+- **Digging.** Holes, pits, and tunnels in the ground of a planet.
+
 ### Next: small things with a big effect
 
-- **Free-look camera.** Hold the rear touch pad and turn the camera with the right stick. The ship keeps its course.
 - **Landing grades.** A grade for every dive, climb, and touchdown, with a clean mark for a perfect landing.
 - **Forests.** Patches of forest and open ground, large and small trees, and bushes.
 - **Cores as money.** Relics on the planets hold energy cores. Carry one to a station or a starport on a tow cable, and the bank pays.
@@ -307,10 +368,8 @@ Thank you for the feedback on the first release. Most of this list comes from yo
 - **Fleet battles** between the navy and the pirates, in space and over a pirate base. You pick a side.
 - **New ship types** for the pirates and the navy.
 
-### Big: on foot
+### Big: more on foot
 
-- **Digging.** Holes, pits, and tunnels in the ground of a planet.
-- **Leave the ship.** Walk near your landed ship, dig for ore, carry it back, and sell it.
 - **Co-op for two Vitas** over a local Wi-Fi network.
 - **Planets of different sizes.** Under study. Every planet is 4 km today.
 
